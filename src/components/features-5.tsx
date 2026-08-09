@@ -117,7 +117,7 @@ export default function FeaturesSection() {
                                 </div>
                                 <FeatureList items={featureHighlights['workflow-agents']} />
                             </div>
-                            <div className="border-border/50 bg-foreground/2 relative flex aspect-square overflow-hidden rounded-3xl border p-3 sm:p-6 md:col-span-3">
+                            <div className="border-border/50 bg-foreground/2 relative flex min-h-[400px] sm:aspect-square overflow-hidden rounded-3xl border p-3 sm:p-6 md:col-span-3">
                                 <SequenceIllustration />
                             </div>
                         </div>
@@ -138,7 +138,7 @@ export default function FeaturesSection() {
                                 </div>
                                 <FeatureList items={featureHighlights.alerts} />
                             </div>
-                            <div className="border-border/50 bg-foreground/2 relative flex aspect-square overflow-hidden rounded-3xl border p-3 sm:p-6 md:col-span-3">
+                            <div className="border-border/50 bg-foreground/2 relative flex min-h-[400px] sm:aspect-square overflow-hidden rounded-3xl border p-3 sm:p-6 md:col-span-3">
                                 <MCPIllustration />
                             </div>
                         </div>
@@ -159,7 +159,7 @@ export default function FeaturesSection() {
                                 </div>
                                 <FeatureList items={featureHighlights.timeline} />
                             </div>
-                            <div className="border-border/50 bg-foreground/2 relative flex aspect-square overflow-hidden rounded-3xl border p-3 sm:p-6 md:col-span-3">
+                            <div className="border-border/50 bg-foreground/2 relative flex min-h-[400px] sm:aspect-square overflow-hidden rounded-3xl border p-3 sm:p-6 md:col-span-3">
                                 <VariantsIllustration />
                             </div>
                         </div>
@@ -180,7 +180,7 @@ export default function FeaturesSection() {
                                 </div>
                                 <FeatureList items={featureHighlights.integrations} />
                             </div>
-                            <div className="border-border/50 bg-foreground/2 relative flex aspect-square overflow-hidden rounded-3xl border p-3 sm:p-6 md:col-span-3">
+                            <div className="border-border/50 bg-foreground/2 relative flex min-h-[400px] sm:aspect-square overflow-hidden rounded-3xl border p-3 sm:p-6 md:col-span-3">
                                 <SMTPWarmupIllustration />
                             </div>
                         </div>
