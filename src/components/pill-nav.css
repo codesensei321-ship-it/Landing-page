@@ -9,6 +9,17 @@
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .pill-nav-container {
+    top: 0;
+    padding: 0.75rem 1rem;
+    background: rgba(24, 24, 27, 0.7);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  }
+}
+
 .pill-nav {
   --nav-h: 40px;
   --pill-pad-x: 18px;
@@ -22,6 +33,9 @@
 
 .pill-nav-left {
   flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .pill-nav-center {
@@ -64,6 +78,14 @@
 
 .pill-logo img {
   display: none;
+}
+
+.pill-logo-text {
+  font-weight: 700;
+  font-size: 15px;
+  color: #ffffff;
+  letter-spacing: -0.02em;
+  white-space: nowrap;
 }
 
 .pill-list {
@@ -170,104 +192,21 @@
   transform: scale(0.97);
 }
 
+
 .desktop-only {
   display: block;
-}
-
-.mobile-only {
-  display: none;
 }
 
 @media (max-width: 768px) {
   .desktop-only {
     display: none;
   }
-  .mobile-only {
-    display: block;
-  }
   .pill-nav-center {
     position: static;
     transform: none;
   }
-}
-
-.mobile-menu-button {
-  width: var(--nav-h);
-  height: var(--nav-h);
-  border-radius: 50%;
-  background: var(--base, #fff);
-  border: none;
-  display: none;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-  cursor: pointer;
-  padding: 0;
-  position: relative;
-}
-
-@media (max-width: 768px) {
-  .mobile-menu-button {
-    display: flex;
+  .pill-buy-btn {
+    padding: 10px 16px;
+    font-size: 12px;
   }
-}
-
-.hamburger-line {
-  width: 18px;
-  height: 2px;
-  background: var(--pill-bg, #18181b);
-  border-radius: 1px;
-  transition: all 0.01s ease;
-  transform-origin: center;
-}
-
-.mobile-menu-popover {
-  position: absolute;
-  top: 3.5em;
-  left: 1.5rem;
-  right: 1.5rem;
-  background: var(--base, #fff);
-  border-radius: 24px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  z-index: 998;
-  opacity: 0;
-  transform-origin: top center;
-  visibility: hidden;
-}
-
-.mobile-menu-list {
-  list-style: none;
-  margin: 0;
-  padding: 4px;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
-.mobile-menu-popover .mobile-menu-link {
-  display: block;
-  padding: 14px 18px;
-  color: #ffffff;
-  background-color: var(--pill-bg, #18181b);
-  text-decoration: none;
-  font-size: 14px;
-  font-weight: 500;
-  border-radius: 50px;
-  transition: all 0.2s ease;
-}
-
-.mobile-menu-popover .mobile-menu-link:hover {
-  cursor: pointer;
-  opacity: 0.85;
-}
-
-.mobile-menu-popover .mobile-menu-link.mobile-buy {
-  background-color: #facc15;
-  color: #18181b;
-  font-weight: 600;
-}
-
-.mobile-menu-popover .mobile-menu-link.mobile-buy:hover {
-  background-color: #eab308;
 }

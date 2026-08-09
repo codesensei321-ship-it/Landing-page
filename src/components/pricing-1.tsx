@@ -50,13 +50,15 @@ export default function Pricing() {
 
                             <div className="mt-8 flex flex-col gap-3">
                                 <Link
-                                    href="#"
+                                    href="https://checkout.dodopayments.com/buy/pdt_0NjDtkmaYaeeHprWb02rS?quantity=1&redirect_url=https://coldmail.host%2Fsuccess%3Flicense_key%3D%7Blicense_key%7D"
+                                    target="_blank"
                                     className="inline-flex w-full items-center justify-center rounded-full bg-yellow-500 px-8 py-3.5 text-sm font-semibold text-zinc-900 transition-all hover:bg-yellow-400 active:scale-[0.97] sm:w-auto"
                                 >
                                     Buy now
                                 </Link>
                                 <Link
-                                    href="#"
+                                    href="https://demo.cleanmails.online/dashboard"
+                                    target="_blank"
                                     className="ring-foreground/10 inline-flex w-full items-center justify-center rounded-full px-8 py-3.5 text-sm font-medium text-foreground ring transition-all hover:bg-foreground/5 sm:w-auto"
                                 >
                                     View demo

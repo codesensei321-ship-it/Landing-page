@@ -19,7 +19,7 @@ export default function CallToAction() {
                             />
                             <Button
                                 nativeButton={false}
-                                render={<Link href="#">Get Started</Link>}
+                                render={<Link href="#">Buy now ($199)</Link>}
                                 size="lg"
                             />
                         </div>

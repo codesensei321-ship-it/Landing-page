@@ -3,7 +3,6 @@ import { ArrowRight } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
 import PillNav from '@/components/pill-nav'
-import LogoCloud from '@/components/hero-section-6-logo-cloud'
 import { CopyCommand } from '@/components/copy-command'
 
 export default function HeroSection() {
@@ -50,13 +49,13 @@ export default function HeroSection() {
                                             <Button
                                                 className="w-fit"
                                                 nativeButton={false}
-                                                render={<Link href="#">Get Started</Link>}
+                                                render={<Link href="https://checkout.dodopayments.com/buy/pdt_0NjDtkmaYaeeHprWb02rS?quantity=1&redirect_url=https://coldmail.host%2Fsuccess%3Flicense_key%3D%7Blicense_key%7D" target="_blank">Buy now ($199)</Link>}
                                             />
                                             <Button
                                                 className="w-fit"
                                                 variant="outline"
                                                 nativeButton={false}
-                                                render={<Link href="#">Demo</Link>}
+                                                render={<Link href="https://demo.cleanmails.online/dashboard" target="_blank">Demo</Link>}
                                             />
                                         </div>
                                     </div>
@@ -92,7 +91,6 @@ export default function HeroSection() {
                         </div>
                     </div>
                 </section>
-                <LogoCloud />
             </main>
         </>
     )

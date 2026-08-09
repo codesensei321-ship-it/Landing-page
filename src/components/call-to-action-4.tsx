@@ -34,7 +34,8 @@ export default function CallToAction() {
                         </p>
                         <p className="text-muted-foreground mt-1 text-sm">Pay once, own it forever</p>
                         <Link
-                            href="#pricing"
+                            href="https://checkout.dodopayments.com/buy/pdt_0NjDtkmaYaeeHprWb02rS?quantity=1&redirect_url=https://coldmail.host%2Fsuccess%3Flicense_key%3D%7Blicense_key%7D"
+                            target="_blank"
                             className="mt-6 inline-flex items-center justify-center gap-2 rounded-full bg-yellow-500 px-6 py-3 text-sm font-semibold text-zinc-900 transition-all hover:bg-yellow-400 active:scale-[0.97]"
                         >
                             Buy now

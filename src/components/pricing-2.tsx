@@ -26,7 +26,7 @@ export default function Pricing() {
                                 variant="outline"
                                 className="w-full"
                                 nativeButton={false}
-                                render={<Link href="#">Get Started</Link>}
+                                render={<Link href="#">Buy now ($199)</Link>}
                             />
                         </div>
 
@@ -56,7 +56,7 @@ export default function Pricing() {
                             <Button
                                 className="w-full"
                                 nativeButton={false}
-                                render={<Link href="#">Get Started</Link>}
+                                render={<Link href="#">Buy now ($199)</Link>}
                             />
                         </div>
 
@@ -86,7 +86,7 @@ export default function Pricing() {
                                 className="w-full"
                                 variant="outline"
                                 nativeButton={false}
-                                render={<Link href="#">Get Started</Link>}
+                                render={<Link href="#">Buy now ($199)</Link>}
                             />
                         </div>
 

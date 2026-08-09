@@ -190,6 +190,7 @@ export default function PillNav({
                             <path d="M2 6L12 13L22 6" stroke="#18181b" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                         </svg>
                     </Link>
+                    <span className="pill-logo-text">Cleanmails</span>
                 </div>
 
                 {/* Menu - center */}
@@ -222,45 +223,13 @@ export default function PillNav({
                     </div>
                 </div>
 
-                {/* Buy Now - right */}
+                {/* Buy Now - right (visible on both desktop and mobile) */}
                 <div className="pill-nav-right">
-                    <Link href="#" className="pill-buy-btn desktop-only">
+                    <Link href="https://checkout.dodopayments.com/buy/pdt_0NjDtkmaYaeeHprWb02rS?quantity=1&redirect_url=https://coldmail.host%2Fsuccess%3Flicense_key%3D%7Blicense_key%7D" target="_blank" className="pill-buy-btn">
                         Buy now
                     </Link>
-
-                    {/* Mobile hamburger */}
-                    <button
-                        className="mobile-menu-button mobile-only"
-                        onClick={toggleMobileMenu}
-                        aria-label="Toggle menu"
-                        ref={hamburgerRef}
-                    >
-                        <span className="hamburger-line" />
-                        <span className="hamburger-line" />
-                    </button>
                 </div>
             </nav>
-
-            <div className="mobile-menu-popover mobile-only" ref={mobileMenuRef} style={cssVars}>
-                <ul className="mobile-menu-list">
-                    {items.map((item, i) => (
-                        <li key={item.href || `mobile-item-${i}`}>
-                            <Link
-                                href={item.href}
-                                className={`mobile-menu-link${activeHref === item.href ? ' is-active' : ''}`}
-                                onClick={() => setIsMobileMenuOpen(false)}
-                            >
-                                {item.label}
-                            </Link>
-                        </li>
-                    ))}
-                    <li>
-                        <Link href="#" className="mobile-menu-link mobile-buy" onClick={() => setIsMobileMenuOpen(false)}>
-                            Buy now
-                        </Link>
-                    </li>
-                </ul>
-            </div>
         </div>
     )
 }
