@@ -7,6 +7,7 @@ import Comparator from '@/components/comparator-1'
 import SavingsCalculator from '@/components/savings-calculator'
 import Pricing from '@/components/pricing-1'
 import StarterKit from '@/components/starter-kit'
+import ManagedServiceBanner from '@/components/managed-service-banner'
 import FAQs from '@/components/faqs-1'
 import CallToAction from '@/components/call-to-action-4'
 import Footer from '@/components/footer-3'
@@ -23,6 +24,7 @@ export default function Home() {
             <SavingsCalculator />
             <Pricing />
             <StarterKit />
+            <ManagedServiceBanner />
             <FAQs />
             <CallToAction />
             <Footer />
