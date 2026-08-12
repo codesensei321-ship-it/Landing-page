@@ -1,7 +1,7 @@
 ﻿{
-  "version": "2.4.7",
-  "released_at": "2026-08-12T22:15:00Z",
-  "changelog": "Sidebar Discord button replaced with Support link (coldmail.host/support). Stale 'Invalid version response' error text cleared on successful check.",
+  "version": "2.4.8",
+  "released_at": "2026-08-12T22:30:00Z",
+  "changelog": "Lead upload fix: duplicate emails no longer crash the entire batch. Sidebar Discord button replaced with Support link.",
   "download_url": "https://cleanmails-sending.s3.amazonaws.com/latest.tar.gz",
   "install_url": "https://coldmail.host/install.sh",
   "min_version": "1.0.0"
