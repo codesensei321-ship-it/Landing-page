@@ -1,7 +1,7 @@
 ﻿{
-  "version": "2.4.0",
-  "released_at": "2026-07-31T17:15:00Z",
-  "changelog": "Phase 4 - polish + delighters",
+  "version": "2.4.1",
+  "released_at": "2026-08-12T10:55:00Z",
+  "changelog": "Domain migration to coldmail.host. All backend references to cleanmails.online have been updated: version check, warmup coordinator, license verification proxy, and support links. Existing installations will seamlessly resolve after the cleanmails.online 301 redirect is set up.",
   "download_url": "https://cleanmails-sending.s3.amazonaws.com/latest.tar.gz",
   "install_url": "https://coldmail.host/install.sh",
   "min_version": "1.0.0"

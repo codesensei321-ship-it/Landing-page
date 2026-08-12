@@ -42,7 +42,8 @@ export default function SupportPage() {
                             <h3 className="mt-4 text-lg font-medium">Community</h3>
                             <p className="text-muted-foreground mt-2 text-sm">Join our Discord community for tips, discussions, and peer support.</p>
                             <Link
-                                href="#"
+                                href="https://discord.com/invite/aH8NqcEenZ"
+                                target="_blank"
                                 className="mt-4 inline-flex items-center text-sm font-medium text-yellow-500 hover:underline"
                             >
                                 Join Discord →
@@ -54,7 +55,7 @@ export default function SupportPage() {
                             <h3 className="mt-4 text-lg font-medium">Priority Support</h3>
                             <p className="text-muted-foreground mt-2 text-sm">Starter Kit customers get priority support with faster response times.</p>
                             <Link
-                                href="https://starter-kit.cleanmails.online/"
+                                href="https://coldmail.host/docs"
                                 target="_blank"
                                 className="mt-4 inline-flex items-center text-sm font-medium text-yellow-500 hover:underline"
                             >
