@@ -18,10 +18,10 @@ export default function SupportPage() {
                             <h3 className="mt-4 text-lg font-medium">Email Support</h3>
                             <p className="text-muted-foreground mt-2 text-sm">Get help directly from our team. We typically respond within 24 hours.</p>
                             <Link
-                                href="mailto:hello@coldmail.host"
+                                href="mailto:hello@cleanmails.online"
                                 className="mt-4 inline-flex items-center text-sm font-medium text-yellow-500 hover:underline"
                             >
-                                hello@coldmail.host
+                                hello@cleanmails.online
                             </Link>
                         </div>
 

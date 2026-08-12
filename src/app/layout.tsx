@@ -25,7 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     >
       <head>
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=G-520283317"
+          src="https://www.googletagmanager.com/gtag/js?id=G-QWXBBLS661"
           strategy="afterInteractive"
         />
         <Script id="google-analytics" strategy="afterInteractive">
@@ -36,7 +36,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             gtag('consent', 'default', {
               'analytics_storage': 'granted'
             });
-            gtag('config', 'G-520283317');
+            gtag('config', 'G-QWXBBLS661');
           `}
         </Script>
       </head>

@@ -71,8 +71,8 @@ export default function Footer() {
                 <div className="mt-12 flex flex-col items-center gap-4 border-t pt-8 text-center sm:flex-row sm:justify-between sm:text-left">
                     <p className="text-muted-foreground text-xs">&copy; {2026} Cleanmails. All rights reserved.</p>
                     <p className="text-muted-foreground text-xs">
-                        <Link href="mailto:hello@coldmail.host" className="hover:text-foreground transition-colors">
-                            hello@coldmail.host
+                        <Link href="mailto:hello@cleanmails.online" className="hover:text-foreground transition-colors">
+                            hello@cleanmails.online
                         </Link>
                     </p>
                 </div>

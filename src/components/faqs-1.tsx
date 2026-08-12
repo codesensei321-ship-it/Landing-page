@@ -62,10 +62,10 @@ export default function FAQs() {
                 <p className="text-muted-foreground mt-6 text-center text-sm">
                     Still have questions?{' '}
                     <Link
-                        href="mailto:hello@coldmail.host"
+                        href="mailto:hello@cleanmails.online"
                         className="text-yellow-500 font-medium hover:underline"
                     >
-                        hello@coldmail.host
+                        hello@cleanmails.online
                     </Link>
                 </p>
             </div>
