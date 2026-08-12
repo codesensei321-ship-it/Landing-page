@@ -280,6 +280,12 @@ $DOMAIN {
             lb_try_interval 1s
         }
     }
+    handle /uploads/* {
+        reverse_proxy api:8080 {
+            lb_try_duration 30s
+            lb_try_interval 1s
+        }
+    }
     handle {
         reverse_proxy frontend:3000 {
             lb_try_duration 30s

@@ -1,7 +1,7 @@
 ﻿{
-  "version": "2.4.1",
-  "released_at": "2026-08-12T10:55:00Z",
-  "changelog": "Domain migration to coldmail.host. All backend references to cleanmails.online have been updated: version check, warmup coordinator, license verification proxy, and support links. Existing installations will seamlessly resolve after the cleanmails.online 301 redirect is set up.",
+  "version": "2.4.2",
+  "released_at": "2026-08-12T19:56:00Z",
+  "changelog": "Fixes 4 user-reported issues: (1) Logo now visible in sidebar — Caddyfile updated to proxy /uploads/* to the API container. (2) AI provider models replaced with real IDs that actually exist: OpenAI gpt-4o-mini/gpt-4o/gpt-5.5, Claude claude-3-5-haiku-latest/claude-sonnet-4-latest, Gemini gemini-3.5-flash/gemini-3.5-flash-lite, Groq llama-3.3-70b-versatile/llama-4-scout, OpenRouter free tier. (3) Custom tracking domain CNAME now points to YOUR install domain instead of the meaningless track.cleanmails.app. (4) Automation tab Configure buttons now link to official n8n/Zapier/Make webhook docs instead of doing nothing.",
   "download_url": "https://cleanmails-sending.s3.amazonaws.com/latest.tar.gz",
   "install_url": "https://coldmail.host/install.sh",
   "min_version": "1.0.0"
