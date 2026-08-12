@@ -21,7 +21,7 @@ export default function CallToAction() {
 
                         <div className="mt-6">
                             <Link
-                                href="https://discord.gg/TYjNpSx8n"
+                                href="https://discord.gg/aH8NqcEenZ"
                                 target="_blank"
                                 className="inline-flex items-center justify-center rounded-full bg-white px-6 py-2.5 text-sm font-semibold text-[#5865F2] transition-all hover:bg-white/90 active:scale-[0.97]"
                             >
