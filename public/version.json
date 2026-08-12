@@ -1,7 +1,7 @@
 ﻿{
-  "version": "2.4.3",
-  "released_at": "2026-08-12T20:30:00Z",
-  "changelog": "AI provider simplified to Gemini-only with verified working models (gemini-2.5-flash, gemini-3.5-flash-lite, gemini-3.5-flash, gemini-3.6-flash). Tracking domain hint now shows YOUR actual install domain instead of the old track.cleanmails.app. Automation docs links fixed (n8n was 404). All defaults changed from OpenAI to Gemini since it has a free API tier.",
+  "version": "2.4.4",
+  "released_at": "2026-08-12T21:00:00Z",
+  "changelog": "Update check now has fallback URL for reliability. Support link replaces Discord in recovery panel. Minor polish.",
   "download_url": "https://cleanmails-sending.s3.amazonaws.com/latest.tar.gz",
   "install_url": "https://coldmail.host/install.sh",
   "min_version": "1.0.0"
