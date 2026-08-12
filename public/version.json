@@ -1,7 +1,7 @@
 ﻿{
-  "version": "2.4.6",
-  "released_at": "2026-08-12T21:54:00Z",
-  "changelog": "Version check timeout increased from 5s to 15s. Fixes 'Invalid version response' on VPS instances where Vercel/Cloudflare responds slowly.",
+  "version": "2.4.7",
+  "released_at": "2026-08-12T22:15:00Z",
+  "changelog": "Sidebar Discord button replaced with Support link (coldmail.host/support). Stale 'Invalid version response' error text cleared on successful check.",
   "download_url": "https://cleanmails-sending.s3.amazonaws.com/latest.tar.gz",
   "install_url": "https://coldmail.host/install.sh",
   "min_version": "1.0.0"
