@@ -5,6 +5,7 @@ import FeaturesSection5 from '@/components/features-5'
 import FeaturesSection6 from '@/components/features-6'
 import Comparator from '@/components/comparator-1'
 import SavingsCalculator from '@/components/savings-calculator'
+import Testimonials from '@/components/testimonials-2'
 import Pricing from '@/components/pricing-1'
 import StarterKit from '@/components/starter-kit'
 import ManagedServiceBanner from '@/components/managed-service-banner'
@@ -17,6 +18,7 @@ export default function Home() {
         <>
             <HeroSection />
             <VideoSection />
+            <Testimonials />
             <Integrations1 />
             <FeaturesSection5 />
             <FeaturesSection6 />

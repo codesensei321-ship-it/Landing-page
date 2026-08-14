@@ -39,7 +39,12 @@ export default function HeroSection() {
                                 </Link>
 
                                 <div className="mt-8 grid items-end gap-4 md:grid-cols-2 md:gap-6">
-                                    <h1 className="text-balance text-5xl font-medium tracking-tight md:text-6xl xl:text-7xl">Don't pay for cold mails again</h1>
+                                    <div className="flex flex-col gap-4">
+                                        <h1 className="text-balance text-5xl font-medium tracking-tight md:text-6xl xl:text-7xl">Stop paying for cold email</h1>
+                                        <a href="https://www.producthunt.com/products/cleanmails?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-cleanmails-2" target="_blank" rel="noopener noreferrer">
+                                            <img alt="Cleanmails - Self-hosted alternative to Instantly &amp; Smartlead | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1208799&theme=light&t=1786686549409" />
+                                        </a>
+                                    </div>
                                     <div className="mx-auto flex max-w-md flex-col gap-6">
                                         <p className="text-muted-foreground text-balance text-lg">Self host Cleanmails and do everything Instantly can and more without paying monthly Subscription</p>
 
