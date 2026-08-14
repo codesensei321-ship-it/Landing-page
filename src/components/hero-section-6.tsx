@@ -40,13 +40,13 @@ export default function HeroSection() {
 
                                 <div className="mt-8 grid items-end gap-4 md:grid-cols-2 md:gap-6">
                                     <div className="flex flex-col gap-4">
-                                        <h1 className="text-balance text-5xl font-medium tracking-tight md:text-6xl xl:text-7xl">Stop paying for cold email</h1>
+                                        <h1 className="text-balance text-4xl font-medium tracking-tight md:text-5xl xl:text-6xl">Own your cold email infrastructure</h1>
                                         <a href="https://www.producthunt.com/products/cleanmails?embed=true&utm_source=badge-featured&utm_medium=badge&utm_campaign=badge-cleanmails-2" target="_blank" rel="noopener noreferrer">
                                             <img alt="Cleanmails - Self-hosted alternative to Instantly &amp; Smartlead | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1208799&theme=light&t=1786686549409" />
                                         </a>
                                     </div>
                                     <div className="mx-auto flex max-w-md flex-col gap-6">
-                                        <p className="text-muted-foreground text-balance text-lg">Self host Cleanmails and do everything Instantly can and more without paying monthly Subscription</p>
+                                        <p className="text-muted-foreground text-lg leading-relaxed">Self-host your cold-email infrastructure. Unlimited mailboxes, rotation, warmup & AI replies. $199 once — no monthly fee.</p>
 
                                         <CopyCommand command="curl -fsSL https://coldmail.host/install.sh | sudo bash" />
 

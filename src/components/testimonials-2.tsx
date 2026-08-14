@@ -84,7 +84,7 @@ export default function Testimonials() {
                             transition={{ duration: 0.3 }}
                         >
                             <p className="text-muted-foreground mb-20 text-2xl font-medium leading-snug md:text-4xl md:leading-tight">
-                                {activeTestimonial.quote} <span className="rounded bg-emerald-500/10 px-1.5 text-emerald-500">{activeTestimonial.highlight}</span>
+                                {activeTestimonial.quote} <span className="rounded bg-yellow-500/10 px-1.5 text-yellow-500">{activeTestimonial.highlight}</span>
                             </p>
                         </motion.div>
 
@@ -96,7 +96,7 @@ export default function Testimonials() {
                             transition={{ duration: 0.3 }}
                             className="flex items-center gap-4"
                         >
-                            <div className="flex size-10 items-center justify-center rounded-full bg-emerald-500/10 text-emerald-500 font-semibold text-lg">
+                            <div className="flex size-10 items-center justify-center rounded-full bg-yellow-500/10 text-yellow-500 font-semibold text-lg">
                                 {activeTestimonial.author.charAt(0)}
                             </div>
                             <div className="border-l pl-4">

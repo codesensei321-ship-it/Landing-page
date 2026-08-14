@@ -28,7 +28,7 @@ const faqItems = [
     {
         id: 'item-5',
         question: 'Do you offer refunds?',
-        answer: "We offer a 30-day money-back guarantee. If you're not satisfied, contact us within 30 days for a full refund.",
+        answer: "We offer a 14-day money-back guarantee. If you're not satisfied, contact us within 14 days for a full refund.",
     },
 ]
 

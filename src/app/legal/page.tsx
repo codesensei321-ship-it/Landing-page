@@ -1,11 +1,20 @@
 import Link from 'next/link'
-import { HeroHeader } from '@/components/hero-section-6-header'
-import Footer from '@/components/footer-2'
+import { Logo } from '@/components/logo'
+import Footer from '@/components/footer-3'
 
 export default function LegalPage() {
     return (
         <>
-            <HeroHeader />
+            <header className="bg-background fixed top-0 z-20 w-full">
+                <div className="mx-auto max-w-7xl px-6">
+                    <div className="flex items-center py-5">
+                        <Link href="/" aria-label="home" className="flex items-center space-x-2">
+                            <Logo uniColor />
+                        </Link>
+                    </div>
+                </div>
+            </header>
+
             <main className="pt-32 pb-16">
                 <div className="mx-auto max-w-4xl px-6">
                     <h1 className="text-4xl font-semibold tracking-tight md:text-5xl">Legal</h1>

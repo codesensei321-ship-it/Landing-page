@@ -12,14 +12,14 @@ export default function FeaturesSection() {
                     <div className="mask-radial-at-top-left mask-radial-from-65% mask-radial-[100%_60%] z-1 absolute inset-3 size-64 rounded-tl-3xl border-l border-t md:size-96 lg:inset-4"></div>
                     <div className="min-w-2xl aspect-88/36 mask-b-from-75% mask-b-to-95% relative">
                         <Image
-                            src="/Screenshot 2026-07-30 103105.png"
+                            src="/Unibox.png"
                             className="absolute inset-0 z-10"
                             alt="app screenshot"
                             width={2797}
                             height={1137}
                         />
                         <Image
-                            src="/Screenshot 2026-07-30 103105.png"
+                            src="/Unibox.png"
                             alt="app screenshot"
                             width={2797}
                             height={1137}
